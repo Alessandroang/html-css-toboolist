@@ -1,11 +1,10 @@
 *{
   margin: 0;
-  padding: 0;
   box-sizing: border-box;  
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: lightgray;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -23,10 +22,18 @@ img{
 .title{
     display: inline-block;
     position: absolute;
-    margin-top: 8px;
+    margin-top: 15px;
     font-size: 15px;
     margin-left: 5px;
 }
+
+main{
+    width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
 
 .section-1{
     border-bottom: 1px solid skyblue;
@@ -77,4 +84,57 @@ img{
 
 ul{
     list-style: none;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+.editorial{
+    background-color: aqua;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.q1goals{
+    background-color: violet;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.recruiting{
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+
+.mobile{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.website{
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.sales{
+    background-color: yellow;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
 }
