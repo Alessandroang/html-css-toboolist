@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
 body{
     background-color: antiquewhite;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -16,4 +22,59 @@ img{
 
 .title{
     display: inline-block;
+    position: absolute;
+    margin-top: 8px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.section-1{
+    border-bottom: 1px solid skyblue;
+    padding-top: 10px;
+    padding-bottom: 45px;
+    padding-left: 50px;
+    height: 30px;
+}
+
+.button-1{
+    padding: 10px 15px;
+    background-color: aqua;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.button-2{
+    padding: 10px 20px;
+    background-color: white;
+    color: grey;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.excatly{
+    height: 20px;
+    width: 20px;
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 5px;
+    padding: 2px 4px;
+}
+
+.wrong{
+    height: 20px;
+    width: 20px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 5px;
+    padding: 2px 4px;
+}
+
+
+ul{
+    list-style: none;
 }
