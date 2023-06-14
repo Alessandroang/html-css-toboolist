@@ -12,6 +12,7 @@ header{
     height: 70px;
     background-color: white;
     position: relative;
+    padding: 0 15px;
 }
 
 img{
@@ -32,6 +33,7 @@ main{
     margin: 50px auto;
     background-color: white;
     padding-bottom: 30px;
+    border-radius: 3%; 
 }
 
 
@@ -43,20 +45,22 @@ main{
     height: 30px;
 }
 
-.button-1{
+.button-first{
     padding: 10px 15px;
     background-color: aqua;
     color: white;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 
-.button-2{
+.button-second{
     padding: 10px 20px;
     background-color: white;
     color: grey;
     border-radius: 10px;
-    border: 1px solid grey;
+    border: 1px solid gray;
+    cursor: pointer;
 }
 
 .excatly{
